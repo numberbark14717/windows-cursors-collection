@@ -7,21 +7,23 @@ If you want to use **all** of the pointers skip and go to the "Total" section.
 
 ## Partially
 
-1. Choose the folder with the pointers you want
+1. Choose the zip with the pointers you want
 2. Download it and check if it's in the folder "downloads"
-3. Go to start or press win+r and type "main.cpl". Then, press enter. An app window should appear
-4. In the top bar, select "pointers"
-5. Tap on the text "normal select" and then, on the bottom, the button "browse..."
-6. Go to "downloads" or the folder where you put the downloaded folder. Double-click it and select che .cur file with called "normal select". Repeat for al the other pointers (some are .ani and **not** .cur. That is normal, they're the animated pointers)
-7. Above, click on "save as..." and name it whatever you like and recongize
-8. Click "apply" and then "OK"
+3. Unzip it
+4. Go to start or press win+r and type "main.cpl". Then, press enter. An app window should appear
+5. In the top bar, select "pointers"
+6. Tap on the text "normal select" and then, on the bottom, the button "browse..."
+7. Go to "downloads" or the folder where you put the downloaded folder. Double-click it and select che .cur file with called "normal select". Repeat for al the other pointers (some are .ani and **not** .cur. That is normal, they're the animated pointers)
+8. Above, click on "save as..." and name it whatever you like and recongize
+9. Click "apply" and then "OK"
 
 
 ## Total
 
-1. Choose the folder with the pointers you want
+1. Choose the zip with the pointers you want
 2. Download it and check if it's in the folder "downloads"
-3. Open it and search "installer.inf". Then, double-click it: after some time (seconds/minutes) an app window named "Mouse Properties" should open and the theme applied automatically
+3. Unzip it
+4. Open it and search "installer.inf". Then, double-click it: after some time (seconds/minutes) an app window named "Mouse Properties" should open and the theme applied automatically
 
 Here you are, with your new stylish pointers.
 

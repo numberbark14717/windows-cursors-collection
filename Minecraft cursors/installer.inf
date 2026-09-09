@@ -1,0 +1,84 @@
+[Version]
+signature="$WINDOWS NT$"
+Numberbark14717 pack
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, Scheme.Ani
+AddReg    = Scheme.Reg,Wreg
+
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Ani = 10,"%ANI_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%ANI_DIR%\%working%,%10%\%ANI_DIR%\%busy%,%10%\%CUR_DIR%\%precision%,%10%\%CUR_DIR%\%text%,%10%\%CUR_DIR%\%hand%,%10%\%CUR_DIR%\%unavailable%,%10%\%CUR_DIR%\%vert%,%10%\%CUR_DIR%\%horz%,%10%\%CUR_DIR%\%dgn1%,%10%\%CUR_DIR%\%dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%,%10%\%CUR_DIR%\%person%,%10%\%CUR_DIR%\%pin%"
+
+
+[Wreg]
+HKCU,"Control Panel\Cursors",,0x00020000,"%SCHEME_NAME%"
+HKCU,"Control Panel\Cursors",AppStarting,0x00020000,"%10%\%ANI_DIR%\%working%"
+HKCU,"Control Panel\Cursors",Arrow,0x00020000,"%10%\%CUR_DIR%\%pointer%"
+HKCU,"Control Panel\Cursors",crosshair,0x00020000,"%10%\%CUR_DIR%\%precision%"
+HKCU,"Control Panel\Cursors",precisionhair,0x00020000,"%10%\%CUR_DIR%\%precision%"
+HKCU,"Control Panel\Cursors",Hand,0x00020000,"%10%\%CUR_DIR%\%link%"
+HKCU,"Control Panel\Cursors",Help,0x00020000,"%10%\%CUR_DIR%\%help%"
+HKCU,"Control Panel\Cursors",IBeam,0x00020000,"%10%\%CUR_DIR%\%text%"
+HKCU,"Control Panel\Cursors",No,0x00020000,"%10%\%CUR_DIR%\%unavailable%"
+HKCU,"Control Panel\Cursors",NWPen,0x00020000,"%10%\%CUR_DIR%\%hand%"
+HKCU,"Control Panel\Cursors",SizeAll,0x00020000,"%10%\%CUR_DIR%\%move%"
+HKCU,"Control Panel\Cursors",SizeNESW,0x00020000,"%10%\%CUR_DIR%\%dgn2%"
+HKCU,"Control Panel\Cursors",SizeNS,0x00020000,"%10%\%CUR_DIR%\%vert%"
+HKCU,"Control Panel\Cursors",SizeNWSE,0x00020000,"%10%\%CUR_DIR%\%dgn1%"
+HKCU,"Control Panel\Cursors",SizeWE,0x00020000,"%10%\%CUR_DIR%\%horz%"
+HKCU,"Control Panel\Cursors",UpArrow,0x00020000,"%10%\%CUR_DIR%\%alternate%"
+HKCU,"Control Panel\Cursors",Wait,0x00020000,"%10%\%ANI_DIR%\%busy%"
+HKCU,"Control Panel\Cursors",Person,0x00020000,"%10%\%CUR_DIR%\%person%"
+HKCU,"Control Panel\Cursors",Pin,0x00020000,"%10%\%CUR_DIR%\%pin%"
+HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Runonce\Setup\","",,"rundll32.exe shell32.dll,Control_RunDLL main.cpl @0,1"
+
+[Scheme.Cur]
+"alternate_select.cur"
+"diagonal_resize1.cur"
+"diagonal_resize2.cur"
+"handwriting.cur"
+"help_select.cur"
+"horizontal_resize.cur"
+"link_select.cur"
+"location_select.cur"
+"move.cur"
+"normal_select.cur"
+"person_select.cur"
+"precision_select.cur"
+"text_select.cur"
+"unavailable.cur"
+"vertical_resize.cur"
+
+[Scheme.Ani]
+"working_in_background.ani"
+"busy.ani"
+
+
+[Strings]
+CUR_DIR     = "Cursors\minecraftpack"
+ANI_DIR     = "Cursors\minecraftpack"
+SCHEME_NAME = "Minecraft Cursor Pack"
+pointer         = "normal_select.cur"
+help            = "help_select.cur"
+working         = "working_in_background.ani"
+busy            = "busy.ani"
+precision       = "precision_select.cur"
+hand            = "handwriting.cur"
+text            = "text_select.cur"
+unavailable     = "unavailable.cur"
+vert            = "vertical_resize.cur"
+horz            = "horizontal_resize.cur"
+dgn1            = "diagonal_resize1.cur"
+dgn2            = "diagonal_resize2.cur"
+move            = "move.cur"
+alternate       = "alternate_select.cur"
+link            = "link_select.cur"
+person          = "person_select.cur"
+pin             = "location_select.cur"
+
+
